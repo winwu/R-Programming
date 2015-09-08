@@ -7,3 +7,26 @@
   
   Ans: 可能是還沒下載 specdata
 
+
+
+## 交作業的方式
+用 command line 的方式的比較快。
+
+* 首先要交作業之前，先 cd 到該作業的目錄。
+
+* 然後開 R
+  ```
+  source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript1.R")
+  ```
+
+* 然後 source 你要交的檔案:
+  ```
+  source("submitscript1.R")
+  ```
+
+* 然後送出 
+  ```
+  submit()
+  ```
+
+送出之後會要你填帳號密碼以及課程 id，是正常的。

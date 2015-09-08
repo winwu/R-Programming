@@ -10,7 +10,8 @@
 
 pollutantmean <- function(directory, pollutant, id = 1:332) {
 	# set dictory to your specdata folder
-  setwd(directory)
+  # 交作業時把這行 comment
+  # setwd(directory)
 
   # 把 specdata 資料夾底下的檔案都列出來
   # full.names 的參數可以取得絕對路徑
@@ -34,5 +35,10 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
 	# 但因題目條件，必須將 NA 刪掉
 	# 有另一方式是 colmean，但我不會 XD
   mean(data[, pollutant], na.rm = TRUE)
-  
 }
+
+
+## 交作業的時候要把這三行都帶上，這是題目
+pollutantmean("specdata", "sulfate", 1:10)
+pollutantmean("specdata", "nitrate", 70:72)
+pollutantmean("specdata", "nitrate", 23)
