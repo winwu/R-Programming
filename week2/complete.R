@@ -1,4 +1,4 @@
-complete <- function(directory, id = 1:3) {
+complete <- function(directory, id = 1:332) {
   
   data <- data.frame()
   
@@ -23,8 +23,12 @@ complete <- function(directory, id = 1:3) {
   
   # 改變 column name
   colnames(data) <- c("id", "nobs")
-  # 先印前六行
-  print(data)
-
   
+  # 測試可先印前六行
+  # print(data)
 }
+
+complete("specdata", 1)
+complete("specdata", c(2, 4, 8, 10, 12))
+complete("specdata", 30:25)
+complete("specdata", 3)
