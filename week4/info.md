@@ -2,15 +2,15 @@
 
 此網站提供很多數據，在此作業只是放了一部分而已。對此， coursera 在此作業中，提供三個資料，`你只需要把重點放在那兩個 csv 就好`。
 
-## outcome-of-care-measures.csv
+#### outcome-of-care-measures.csv
   Contains information about 30-day mortality and readmission rates for heart attacks, heart failure, and pneumonia for over 4,000 hospitals.
   含有約30天的死亡率和再住院率，心臟發作，心臟衰竭，肺炎超過4000家醫院的信息。
 
-## hospital-data.csv
+#### hospital-data.csv
   Contains information about each hospital.
   包含每家醫院的資訊。
 
-## Hospital_Revised_Flatfiles.pdf
+#### Hospital_Revised_Flatfiles.pdf
   Descriptions of the variables in each file (i.e the code book).
   說明每個欄位的意義。
 
@@ -19,7 +19,7 @@
 您可能會發現打印出這個文件（至少頁
 表19和11）有在你身邊，而你這方面的工作任務。具體地，對於每個表中的變量的數字表示在各表列索引（即“醫院名稱”是在結果的護理-measures.csv的文件2列）。
 
-# Mission 1: Plot the 30-day mortality rates for heart attack 
+## Mission 1: Plot the 30-day mortality rates for heart attack 
 
 繪製的30天心臟發作的死亡率
 
@@ -42,9 +42,9 @@
 ```
 
 
-# Mission 2: Finding the best hospital in a state 找到每洲最好的醫院
+## Mission 2: Finding the best hospital in a state 找到每洲最好的醫院
 
-# Mission 3: Ranking hospitals by outcome in a state 依照狀態排序醫院
+## Mission 3: Ranking hospitals by outcome in a state 依照狀態排序醫院
 
-# Mission 4: Ranking hospitals in all states 依照州別，排序所有的醫院
+## Mission 4: Ranking hospitals in all states 依照州別，排序所有的醫院
 
